@@ -34,7 +34,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the image in grayscale format.
-img = cv2.imread('Chennai_Central.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('parrot.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Display the images.
 plt.imshow(img, cmap='gray')
@@ -62,7 +62,7 @@ img = cv2.imread('parrot.jpg', cv2.IMREAD_COLOR)
 
 import cv2
 
-img = cv2.imread('Chennai_Central.jpg')  # make sure extension is correct
+img = cv2.imread('parrot.jpg')  # make sure extension is correct
 
 if img is None:
     print("Image not loaded. Check path or filename.")
@@ -96,21 +96,16 @@ plt.subplot(122); plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Hist
 ```
 
 ## Output:
-<img width="765" height="515" alt="image" src="https://github.com/user-attachments/assets/e03c4e6b-c893-4ef0-838c-221b9bd1f74d" />
+<img width="800" height="499" alt="image" src="https://github.com/user-attachments/assets/d54ed326-a12c-43e9-9091-ea33256b66c6" />
+<img width="832" height="542" alt="image" src="https://github.com/user-attachments/assets/9d6495ad-c699-4002-8477-bb2426474f27" />
+<img width="895" height="539" alt="image" src="https://github.com/user-attachments/assets/353900bd-deeb-4151-bc7c-b529689f2b53" />
+<img width="803" height="517" alt="image" src="https://github.com/user-attachments/assets/0d32877c-656f-446f-9cc3-4d7dc57e2cf1" />
+<img width="774" height="493" alt="image" src="https://github.com/user-attachments/assets/0835f491-e4dd-4da0-8d3a-2ad9c137c93d" />
+<img width="857" height="553" alt="image" src="https://github.com/user-attachments/assets/e3c817b0-d95f-48f8-90e1-7fcaeff215db" />
+<img width="886" height="546" alt="image" src="https://github.com/user-attachments/assets/d030522d-1851-433d-93b4-f22f6563f293" />
+<img width="1372" height="465" alt="image" src="https://github.com/user-attachments/assets/fac77158-35e5-4af5-8736-9cdbeb4190d8" />
 
-<img width="757" height="567" alt="image" src="https://github.com/user-attachments/assets/21f57b4f-f682-43b8-97db-16e0036da7f1" />
 
-<img width="821" height="543" alt="image" src="https://github.com/user-attachments/assets/ee929fe6-f4d2-4167-8312-32487aba51b1" />
-
-<img width="834" height="526" alt="image" src="https://github.com/user-attachments/assets/1561e255-2052-48f3-8df5-601fe49f2a6a" />
-
-<img width="742" height="502" alt="image" src="https://github.com/user-attachments/assets/accb40ea-4a79-4b59-ad54-e2bd91ad7677" />
-
-<img width="786" height="552" alt="image" src="https://github.com/user-attachments/assets/3f02b3a5-1537-4415-ae14-5d98b98c538b" />
-
-<img width="801" height="549" alt="image" src="https://github.com/user-attachments/assets/0cc9bf8b-aa7d-40af-8b71-c364674d311c" />
-
-<img width="1371" height="449" alt="image" src="https://github.com/user-attachments/assets/53629410-91b5-4366-ae0b-c31348848d92" />
 
 
 ## Result: 
